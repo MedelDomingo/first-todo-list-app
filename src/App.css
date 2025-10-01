@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.todo-list-section li {
+  padding: 15px;
+  border-radius: 4px;
+  text-align: left;
+  color: #000;
+  border-bottom: 1px solid #fefefe;
+  box-shadow: 0px 8px 5px -6px rgb(0 0 0 / 5%);
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in-element {
+  animation: fade-in 0.3s ease-in-out; /* Adjust duration and timing function as needed */
+}
+
+.taskCompleted {
+  background-color: green;
+}
