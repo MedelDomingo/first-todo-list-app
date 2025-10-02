@@ -1,1 +1,1 @@
-This the first todo list app!
+This is my first todo list app using React JS
