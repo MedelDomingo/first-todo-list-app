@@ -1,9 +1,23 @@
 @import "tailwindcss";
 
+html {
+  height: 100%;
+  background: linear-gradient(to right, #78ffd6, #a8ff78);
+}
+
 #root {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  border: 1px solid #cccccc6b;
+  border-radius: 25px;
+  margin: 25;
+  background: #fff;
+  margin-top: 5vh;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 5%);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  max-width: 1200px;
 }
 
 .todo-list-section li {
@@ -16,8 +30,12 @@
 }
 
 @keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .fade-in-element {
