@@ -1,0 +1,7 @@
+.form-wrapper input,
+.form-wrapper textarea {
+  background: #fff;
+}
+.form-wrapper button {
+  border-radius: 50px;
+}
